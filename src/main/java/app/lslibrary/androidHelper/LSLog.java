@@ -14,6 +14,10 @@ public class LSLog
     {
         Log.i(LOGTAG, getAutoJumpLogInfos()+" : "+msg);
     }
+    public static void Log_SystemPrint(String msg)
+    {
+        System.out.print(LOGTAG+":"+getAutoJumpLogInfos()+" : "+msg);
+    }
     public static void Log_INFO(String msgForamt,Object... values)
     {
         Log.i(LOGTAG, getAutoJumpLogInfos()+" : "+String.format(msgForamt, values));
