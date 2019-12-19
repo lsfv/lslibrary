@@ -7,7 +7,7 @@ import app.lslibrary.androidHelper.LSLog;
 
 public class LSListen<T>
 {
-    public interface IOrder<A>
+    public interface IOrder<A >
     {
         void onHappen(A data);
     }
